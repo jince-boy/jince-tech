@@ -63,14 +63,20 @@ nav {
 
 @media (max-width: 768px) {
   header {
-    height:auto;
+    height: auto;
     flex-direction: column;
   }
-  #logo{
+
+  #logo {
     flex-direction: column;
-    text-align:center;
+    text-align: center;
+
+    img {
+      margin: 0;
+    }
   }
-  nav{
+
+  nav {
     margin-top: 1.6rem;
   }
 }
