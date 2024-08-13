@@ -1,18 +1,37 @@
-<script setup>
+<script setup lang="ts">
 
 import DefaultTheme from "vitepress/theme";
-const { Layout } = DefaultTheme
+import {useData} from "vitepress";
+
+const {Layout} = DefaultTheme
+
+const {frontmatter} = useData();
 </script>
 
 <template>
 
   <Layout>
-    <template #home-features>
-      My custom sidebar top content1222222222222222222222
+    <template #home-hero-info>
+      <div id="description">
+        <h2>关于我</h2>
+        <p v-for="item in frontmatter.hero.introduce">{{ item.text }}</p>
+      </div>
     </template>
   </Layout>
 </template>
 
-<style scoped>
+<style scoped lang="less">
+#description {
+  color: inherit;
 
+  h2 {
+    font-size: 3rem;
+    line-height: 4.8rem;
+    font-weight: bold;
+  }
+
+  p {
+    line-height: 3.6rem;
+  }
+}
 </style>
