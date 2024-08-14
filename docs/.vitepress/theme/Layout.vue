@@ -13,7 +13,7 @@ const {frontmatter} = useData();
   <Layout>
     <template #home-hero-info>
       <div id="description">
-        <h2>关于我</h2>
+        <h2>Hi there , I'm JinCe👏</h2>
         <p v-for="item in frontmatter.hero.introduce">{{ item.text }}</p>
       </div>
     </template>
