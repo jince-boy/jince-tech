@@ -32,7 +32,7 @@ const {frontmatter} = useData();
             <div>
               <h3><a :href="item.url" target="_blank">{{ item.name }}</a></h3>
               <div class="project-link">
-                <a :href="item.url"><span class="iconfont icon-home-page"></span></a>
+                <a :href="item.url"><span class="iconfont icon-shouye"></span></a>
                 <a :href="item.gitUrl"><span class="iconfont icon-github"></span></a>
               </div>
             </div>

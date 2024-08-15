@@ -1,5 +1,7 @@
 <script setup>
+import {useSidebar} from "vitepress/theme";
 
+console.log(useSidebar().sidebar.value)
 </script>
 
 <template>

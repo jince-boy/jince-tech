@@ -26,7 +26,7 @@ hero:
         text: TypeScript
       - icon: icon-node
         text: node
-      - icon: icon-vue
+      - icon: icon-vuejs
         text: Vue
       - icon: icon-JavaScript
         text: JavaScript
