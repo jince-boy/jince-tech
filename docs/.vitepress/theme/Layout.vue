@@ -165,4 +165,20 @@ const {frontmatter} = useData();
     line-height: 1.8rem;
   }
 }
+@media (max-width: 480px){
+  #project ul{
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+  #skill ul {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (min-width:480px) and (max-width: 768px) {
+  #project ul{
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  #skill ul {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
 </style>
