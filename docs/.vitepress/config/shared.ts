@@ -40,6 +40,13 @@ export const shared = defineConfig({
                 }
             }
         },
+        lastUpdated: {
+            text: "最后更新于",
+            formatOptions: {
+                dateStyle: 'short',
+                timeStyle: 'medium'
+            }
+        },
         returnToTopLabel: '回到顶部',
         sidebarMenuLabel: '菜单',
         darkModeSwitchLabel: '主题',
