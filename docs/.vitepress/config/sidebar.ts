@@ -1,9 +1,18 @@
-export const sidebar = [
-    {
-        text: 'Examples',
-        items: [
-            {text: 'Markdown Examples', link: '/markdown-examples'},
-            {text: 'Runtime API Examples', link: '/api-examples'}
-        ]
-    }
-]
+export const sidebar = {
+    '/note/': [
+        {text: '简介', link: '/note/'},
+        {
+            text: 'Java',
+            collapsed: true,
+            items: [
+                {
+                    text: '设计模式',
+                    collapsed: true,
+                    items: [
+                        {text: '单例模式', link: '/note/java/DesignPatterns/SingletonPattern'}
+                    ]
+                }
+            ]
+        }
+    ]
+}
