@@ -19,6 +19,7 @@ export const shared = defineConfig({
             copyright: `Copyright © 2024-${new Date().getFullYear()} JinCe <a href="https://beian.miit.gov.cn/">冀ICP备2022001116号-4</a>`
         },
         outline: {
+            level: [2, 3],
             label: '页面导航',
         },
         search: {
