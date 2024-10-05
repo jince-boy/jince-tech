@@ -12,5 +12,8 @@ export const sidebar = {
                 {text: '模板方法模式', link: '/note/DesignPatterns/TemplatePattern'},
             ]
         }
+    ],
+    '/prose/': [
+        {text: '简介', link: '/prose/'},
     ]
 }
